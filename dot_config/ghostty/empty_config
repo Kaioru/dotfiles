@@ -1,0 +1,7 @@
+theme = GruvboxDarkHard
+
+background-opacity=0.9
+background-blur=true
+
+window-height=38
+window-width=150

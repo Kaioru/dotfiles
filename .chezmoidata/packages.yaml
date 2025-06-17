@@ -1,6 +1,10 @@
 packages:
   darwin:
     brews:
+      - 'antigen'
+      - 'zoxide'
+      - 'fzf'
+      - 'dockutil'
     casks:
       - 'ghostty'
       - 'visual-studio-code'

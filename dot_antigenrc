@@ -1,0 +1,5 @@
+antigen use oh-my-zsh
+
+antigen theme romkatv/powerlevel10k
+
+antigen apply

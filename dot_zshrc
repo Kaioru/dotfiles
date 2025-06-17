@@ -1,0 +1,18 @@
+export ZSH="$HOME/.oh-my-zsh"
+
+DEFAULT_USER=$USER
+POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
+
+HISTSIZE=1000000
+SAVEHIST=1000000
+HISTFILE=~/.zsh_history
+
+ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+
+source $ZSH/oh-my-zsh.sh
+source /opt/homebrew/share/antigen/antigen.zsh
+antigen init ~/.antigenrc
+
+eval "$(zoxide init zsh)"
+
+alias cd="z"
