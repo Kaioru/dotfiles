@@ -11,3 +11,5 @@ packages:
     casks:
       - 'ghostty'
       - 'visual-studio-code'
+      - 'telegram'
+      - 'discord'
