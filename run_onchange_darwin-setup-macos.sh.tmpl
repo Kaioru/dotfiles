@@ -9,6 +9,20 @@ defaults write NSGlobalDomain NSAutomaticPeriodSubstitutionEnabled -bool false
 defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
+dockutil --remove all
+dockutil --add "/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app"
+dockutil --add "/Applications/Ghostty.app"
+dockutil --add "/Applications/Visual Studio Code.app"
+dockutil --add "/Applications/Telegram.app"
+dockutil --add "/Applications/Discord.app"
+dockutil --add "/System/Applications/Notes.app"
+dockutil --add "/System/Applications/Music.app"
+dockutil --add "/System/Applications/Calendar.app"
+dockutil --add "/System/Applications/Passwords.app"
+dockutil --add "/System/Applications/System Settings.app"
+
+killall Dock
+
 defaults write com.apple.dock "autohide" -bool "true"
 defaults write com.apple.dock "autohide-delay" -float "0"
 defaults write com.apple.dock "autohide-time-modifier" -float "0.2"
