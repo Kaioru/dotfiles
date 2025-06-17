@@ -5,6 +5,8 @@ packages:
       - 'zoxide'
       - 'fzf'
       - 'dockutil'
+      - 'mise'
+      - 'micro'
     casks:
       - 'ghostty'
       - 'visual-studio-code'

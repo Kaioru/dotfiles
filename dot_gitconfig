@@ -1,3 +1,9 @@
 [user]
 	name = Keith (Kaioru)
 	email = keith@kaioru.co
+
+[core]
+	editor = micro
+
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
