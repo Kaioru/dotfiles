@@ -8,6 +8,7 @@ packages:
       - 'dockutil'
       - 'mise'
       - 'micro'
+      - 'thefuck'
     casks:
       - 'ghostty'
       - 'visual-studio-code'
