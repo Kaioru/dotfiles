@@ -6,6 +6,8 @@ antigen bundle git
 antigen bundle zoxide
 antigen bundle thefuck
 
+antigen bundle atuinsh/atuin@main
+
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-completions

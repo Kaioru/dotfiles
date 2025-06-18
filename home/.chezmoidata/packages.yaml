@@ -6,6 +6,7 @@ packages:
       - 'fzf'
       - 'lsd'
       - 'bat'
+      - 'atuin'
       - 'dockutil'
       - 'mise'
       - 'micro'

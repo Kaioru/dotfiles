@@ -9,12 +9,13 @@ HISTFILE=~/.zsh_history
 
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 
+eval "$(mise activate zsh)"
+eval "$(zoxide init zsh)"
+eval "$(atuin init zsh)"
+
 source $ZSH/oh-my-zsh.sh
 source /opt/homebrew/share/antigen/antigen.zsh
 antigen init ~/.antigenrc
-
-eval "$(mise activate zsh)"
-eval "$(zoxide init zsh)"
 
 alias cd="z"
 alias ls='lsd'
