@@ -5,6 +5,7 @@ packages:
       - 'zoxide'
       - 'fzf'
       - 'lsd'
+      - 'bat'
       - 'dockutil'
       - 'mise'
       - 'micro'
