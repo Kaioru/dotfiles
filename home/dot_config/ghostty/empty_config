@@ -19,6 +19,8 @@ keybind=alt+shift+down=resize_split:down,20
 keybind=alt+shift+left=resize_split:left,20
 keybind=alt+shift+right=resize_split:right,20
 
+keybind=alt+q=close_surface
+
 keybind=super+up=goto_split:up
 keybind=super+down=goto_split:down
 keybind=super+left=goto_split:left
