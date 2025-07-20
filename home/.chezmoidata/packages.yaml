@@ -9,6 +9,7 @@ packages:
       - 'atuin'
       - 'dockutil'
       - 'mise'
+      - 'yazi'
       - 'helix'
       - 'thefuck'
     casks:

@@ -1,4 +1,4 @@
 theme = "gruvbox_dark_hard"
 
 [editor.file-picker]
-hidden = true
+hidden = false
