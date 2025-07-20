@@ -3,7 +3,7 @@
 	email = keith@kaioru.co
 
 [core]
-	editor = micro
+	editor = hx
 
 [url "ssh://git@github.com/"]
 	insteadOf = https://github.com/

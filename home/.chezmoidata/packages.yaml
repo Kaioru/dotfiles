@@ -9,7 +9,7 @@ packages:
       - 'atuin'
       - 'dockutil'
       - 'mise'
-      - 'micro'
+      - 'helix'
       - 'thefuck'
     casks:
       - 'ghostty'
