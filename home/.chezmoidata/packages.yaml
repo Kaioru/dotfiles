@@ -9,6 +9,7 @@ packages:
       - 'atuin'
       - 'dockutil'
       - 'mise'
+      - 'lazygit'
       - 'yazi'
       - 'helix'
       - 'thefuck'
