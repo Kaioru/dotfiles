@@ -9,4 +9,21 @@ window-width=150
 quick-terminal-position=bottom
 quick-terminal-animation-duration=0.1
 
+keybind=alt+super+up=new_split:up
+keybind=alt+super+down=new_split:down
+keybind=alt+super+left=new_split:left
+keybind=alt+super+right=new_split:right
+
+keybind=alt+shift+up=resize_split:up,20
+keybind=alt+shift+down=resize_split:down,20
+keybind=alt+shift+left=resize_split:left,20
+keybind=alt+shift+right=resize_split:right,20
+
+keybind=alt+q=close_surface
+
+keybind=super+up=goto_split:up
+keybind=super+down=goto_split:down
+keybind=super+left=goto_split:left
+keybind=super+right=goto_split:right
+
 keybind=global:super+grave_accent=toggle_quick_terminal
