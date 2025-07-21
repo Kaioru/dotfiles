@@ -1,9 +1,6 @@
 export ZSH="$HOME/.oh-my-zsh"
 export EDITOR=hx
 
-ZELLIJ_AUTO_ATTACH=true
-ZELLIJ_AUTO_EXIT=true
-
 DEFAULT_USER=$USER
 POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
 
@@ -28,15 +25,3 @@ alias la='ls -a'
 alias lla='ls -la'
 alias lt='ls --tree'
 alias cat='bat'
-
-if [[ -z "$ZELLIJ" ]]; then
-    if [[ "$ZELLIJ_AUTO_ATTACH" == "true" ]]; then
-        zellij attach -c
-    else
-        zellij
-    fi
-
-    if [[ "$ZELLIJ_AUTO_EXIT" == "true" ]]; then
-        exit
-    fi
-fi
