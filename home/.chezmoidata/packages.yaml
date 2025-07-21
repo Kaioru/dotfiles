@@ -9,7 +9,6 @@ packages:
       - 'atuin'
       - 'dockutil'
       - 'mise'
-      - 'zellij'
       - 'yazi'
       - 'helix'
       - 'thefuck'
