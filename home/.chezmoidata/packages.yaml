@@ -13,6 +13,7 @@ packages:
       - 'yazi'
       - 'helix'
       - 'thefuck'
+      - 'typst'
     casks:
       - 'ghostty'
       - 'visual-studio-code'
