@@ -29,6 +29,6 @@ if [ -d "$HOME/.local/share/chezmoi/.git" ]; then
   echo "🚸  chezmoi already initialized"
   echo "    Reinitialize with: 'chezmoi init kaioru'"
 else
-  echo "🚀  Initialize dotfiles with:"
-  echo "    chezmoi init kaioru"
+  echo "🚀  Initializing dotfiles"
+  chezmoi init git@github.com:Kaioru/dotfiles.git
 fi
