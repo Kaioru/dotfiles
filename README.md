@@ -1,5 +1,5 @@
 # dotfiles
-My personal dotfiles managed with [chezmoi](https://www.chezmoi.io/).
+..my personal dotfiles, what else can i say?
 
 ## ✨ Setup
 
