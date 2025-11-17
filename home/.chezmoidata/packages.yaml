@@ -16,6 +16,7 @@ packages:
       - 'typst'
     casks:
       - 'ghostty'
+      - 'docker'
       - 'visual-studio-code'
       - 'telegram'
       - 'discord'
