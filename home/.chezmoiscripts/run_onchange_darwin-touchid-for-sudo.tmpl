@@ -1,3 +1,5 @@
+#!{{ lookPath "sh" }}
+
 {{ if eq .chezmoi.os "darwin" -}}
 sudo tee /etc/pam.d/sudo_local > /dev/null << 'EOF'
 auth       sufficient     pam_tid.so
