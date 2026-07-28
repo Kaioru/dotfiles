@@ -10,6 +10,7 @@ packages:
       - 'dockutil'
       - 'mise'
       - 'lazygit'
+      - 'git-credential-manager'
       - 'yazi'
       - 'helix'
       - 'thefuck'
